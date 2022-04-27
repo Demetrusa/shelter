@@ -59,8 +59,11 @@ h1{
     font-weight: 400;
     color: #FAFAFA;
     border: 3px;
-    border-bottom: solid 3px #F1CDB3;
+
     margin-left: 36px;
+}
+.navbar a:hover{
+    border-bottom: solid 3px #F1CDB3;
 }
 .not-only-container{
 
