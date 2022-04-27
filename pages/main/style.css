@@ -211,7 +211,11 @@ h1{
     padding: 15px 45px;
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #292929;
 
+}
+.learnMoreBtn:hover{
+    background-color: #FDDCC4;
 }
 .firstArrow{
     height: 52px;
@@ -236,5 +240,108 @@ h1{
     border: 2px solid #f1cdb3;
 }
 .slider button:hover{
-    background-color:#FDDCC4 ;
+    background-color: #FDDCC4;
+}
+.Get-to-know-the-rest-button{
+    width: 261px;
+    height: 52px;
+    padding: 15px, 45px, 15px, 45px;
+    gap: 10px;
+    background: #F1CDB3;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;  
+    margin-bottom: 100px;
+   
+}
+.Get-to-know-the-rest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.help{
+    width: 94%;
+    margin: 0 auto;
+    background-color: rgb(182, 176, 176);
+    height:80vh;
+}
+.help-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.help-heading h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    max-width: 308px;
+    color: #545454;
+}
+.list-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.list-column img {
+    margin-bottom: 30px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+   gap: 5vh;
+   padding: 10px;
+   width: 100%;
+   justify-content: center;
+
+}
+/* donation */
+.donation{
+    width: 100%;
+    background: #F6F6F6;
+    height: 462px;
+   
+}
+.donation-wrap{
+    width: 71%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 91px 0 110px 0;
+}
+
+.donation-right-wrap{
+    display: flex;
+    flex-direction: column;
+
+}
+.donation-right-wrap h3{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+
+}
+.donation-right-wrap p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+#donation-text{
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #B2B2B2;
 }
