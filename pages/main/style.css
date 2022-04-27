@@ -1,0 +1,64 @@
+.main-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.bg-wrap{
+    background-image: url("../../assets/images/start-screen-gradient-background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 908px;
+    position: absolute;
+}
+header{
+    max-width:1200px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+}
+h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+}
+.cozy-house-wrap h4{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+}
+.cozy-house-wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+.navbar a {
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    font-weight: 400;
+    color: #FAFAFA;
+    border: 3px;
+    border-bottom: solid 3px #F1CDB3;
+    margin-left: 36px;
+}
