@@ -1,7 +1,7 @@
 .main-container{
     max-width: 1280px;
     margin: 0 auto;
-    position: relative;
+
 }
 .bg-wrap{
     background-image: url("../../assets/images/start-screen-gradient-background.jpg");
@@ -10,18 +10,17 @@
     background-size: cover;
     background-position: 0 0;
     height: 908px;
-    position: absolute;
+    position: relative;
 }
 header{
     max-width:1200px;
     height: 60px;
     margin: 0 auto;
-    margin-top: 60px;
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
     flex-wrap:nowrap;
 }
-
 h1{
     font-weight: 400;
     font-size: 32px;
@@ -59,7 +58,6 @@ h1{
     font-weight: 400;
     color: #FAFAFA;
     border: 3px;
-
     margin-left: 36px;
 }
 .navbar a:hover{
@@ -133,6 +131,13 @@ color: red;
 #start-screen-puppy{
     max-width: 728px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
+/* main */
+
+main h2{
+    z-index:2000;
+    position: absolute;
+    color: black;
+}
