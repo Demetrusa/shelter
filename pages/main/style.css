@@ -57,25 +57,23 @@ h1{
     text-decoration: none;
     font-weight: 400;
     color: #FAFAFA;
-    border: 3px;
     margin-left: 36px;
+    border: 3px;
+  
 }
+
 .navbar a:hover{
     border-bottom: solid 3px #F1CDB3;
 }
-.not-only-container{
 
-    max-width: 1200px;
-    margin: 0 auto;
-}
 main h2{
     font-size: 60px;
 color: red;
 }
 .not-only-container{
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 95%;
     display: flex;
+    margin: 0 auto;
 }
 .not-only-left-wrap{
     max-width: 502px;
