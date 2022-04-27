@@ -17,11 +17,11 @@ header{
     height: 60px;
     margin: 0 auto;
     margin-top: 60px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     flex-wrap:nowrap;
 }
+
 h1{
     font-weight: 400;
     font-size: 32px;
@@ -62,3 +62,74 @@ h1{
     border-bottom: solid 3px #F1CDB3;
     margin-left: 36px;
 }
+.not-only-container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main h2{
+    font-size: 60px;
+color: red;
+}
+.not-only-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.not-only-left-wrap{
+    max-width: 502px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;  
+}
+.not-only-text-content{
+    margin-top: 223px;
+}
+.not-only-text-content h3{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    max-width: 310px;
+    color: #FFFFFF;
+}
+.not-only-text-content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    max-width: 460px;
+    width: 100%;
+    height: 72px;
+    margin: 42px 0;
+}
+#makeAFriend-button {
+    max-width: 207px;
+    height: 52px;
+    background-color: #F1CDB3;
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    cursor: pointer;
+    transform: .5s;
+    
+}
+#makeAFriend-button:hover{
+    background-color: #FDDCC4;
+}
+
+.not-only-right-wrap{
+    max-width: 728px;
+    height: 728px;
+
+}
+#start-screen-puppy{
+    max-width: 728px;
+    width: 100%;
+    margin-top: 60px;
+}
+
