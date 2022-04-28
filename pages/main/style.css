@@ -264,8 +264,6 @@ h1{
 .help{
     width: 94%;
     margin: 0 auto;
-    background-color: rgb(182, 176, 176);
-    height:80vh;
 }
 .help-heading{
     display: flex;
@@ -286,22 +284,23 @@ h1{
     color: #545454;
 }
 .list-column{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    width: 200px;
+    margin-bottom: 50px;
+  
   
 }
 .list-column img {
     margin-bottom: 30px;
 }
 .list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-   gap: 5vh;
-   padding: 10px;
-   width: 100%;
-   justify-content: center;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
 
 }
 /* donation */
