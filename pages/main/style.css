@@ -229,6 +229,7 @@ h1{
 .card {
     width: 270px;
     height: 435px;
+    background: #F6F6F6;
 }
 .card img {
     width: 100%;
@@ -280,11 +281,11 @@ h1{
 }
 #leftArrow{
     position: absolute;
-    left: 0.7rem;
+    left: 0.8rem;
 }
 #rightArrow{
     position: absolute;
-    right: 0.7rem
+    right: 0.8rem
 }
 
 
