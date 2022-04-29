@@ -22,10 +22,10 @@
           <div class="navbar">
             <nav>
               <ul>
-                <li><a id="" href="#">About the shelter</a></li>
-                <li><a href="#">Our pets</a></li>
-                <li><a href="#">Help the shelter</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#about">About the shelter</a></li>
+                <li><a href="../pets/index.html" target="_blank">Our pets</a></li>
+                <li><a href="#help">Help the shelter</a></li>
+                <li><a href="#footer">Contacts</a></li>
               </ul>
             </nav>
           </div>
@@ -40,7 +40,7 @@
                 extremely wide and open heart. He or she will love you more than
                 anybody else in the world, you will see!
               </p>
-              <button id="makeAFriend-button">Make a friend</button>
+              <button id="makeAFriend-button" onclick="btnOurFriends()">Make a friend</button>
             </div>
           </div>
           <div class="not-only-right-wrap">
@@ -54,7 +54,7 @@
       </div>
       <!-- main -->
       <main>
-        <div class="about-shelter-container">
+        <div class="about-shelter-container" id="about">
           <div class="about-shelter-left-wrapp">
             <img src="../../assets/images/about-pets.png" alt="about-pets" />
           </div>
@@ -76,7 +76,7 @@
             </p>
           </div>
         </div>
-        <div class="our-Friends-block">
+        <div class="our-Friends-block" id="ourFriends">
           <div class="our-friends-heading">
             <h3>Our friends who </br>are looking for a house</h3>
           </div>
@@ -150,10 +150,10 @@
             <button class="secondArrow"></button>
           </div>
           <div class="Get-to-know-the-rest">
-          <button class="Get-to-know-the-rest-button">Get to know the rest</button>
+          <button class="Get-to-know-the-rest-button"><a href="../pets/index.html">Get to know the rest</a></button >
         </div>
         </div>
-        <div class="help">
+        <div class="help"  id="help">
           <div class="help-center">
             <div class="help-heading">
               <h3>How you can help
@@ -218,7 +218,7 @@
         </div>
       </main>
       <!-- footer -->
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer-container">
           <div class="footer-wrapp">
             <div class="footer-column">
