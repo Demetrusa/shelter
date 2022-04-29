@@ -200,6 +200,7 @@ h1{
 .our-Friends-block{
     background: #F6F6F6;
     width: 100%;
+    position: relative;
 }
 .our-friends-heading{
     font-weight: 400;
@@ -217,80 +218,94 @@ h1{
 .slider{
     width: 95%;
     margin: 0 auto;
-    display: flex;
-
-}
-.card-wrap{
-    width: 1134px;
-    display: flex;
     overflow: hidden;
-    margin: 0 72px;
 }
-.card{
-    width: 270px;
-    background:#FAFAFA ;
+.card-wrap {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 200%;
+    justify-content: space-around;
+    transition: 1s;
+}
+.card {
+    width: 270px;
+    height: 435px;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    color: #545454;
     text-align: center;
-    margin-right: 70px;
-    cursor: pointer;
-}
-.card-content{
-    margin-top: 30px;
-}
-.card-content h3{
+    margin: 30px 0;
+    font-family: 'Georgia';
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #545454;
-    font-family: 'Georgia';
-    font-style: normal;
-
+    
+}
+.learnMoreBox{
+    display: flex;
+    justify-content: center;
 }
 .learnMoreBtn{
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    padding: 15px 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     color: #292929;
-    background-color: #FAFAFA;;
-    color: #292929;
+    font-size: 17px;
     font-family: 'Georgia';
     font-style: normal;
-
+    border: 2px solid #F1CDB3;
+    letter-spacing: 0.06em;
+    padding: 10px 15px;
+    border-radius: 2rem;
+    cursor: pointer;
+    background: #FAFAFA;
+    height: 52px;
+    width: 187px;
 }
 .learnMoreBtn:hover{
-    background-color: #FDDCC4;
+    background-color:#FDDCC4; ;
 }
-.firstArrow{
-    height: 52px;
-    width: 54px;
-    border-radius: 100px;
-    background: url("../../assets/icons/Arrowleft.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+.leftArrow,
+.rightArrow{
     cursor: pointer;
-    margin-top: 210px;
-    border: 2px solid #f1cdb3;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dfb394;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 1s;
+    top: 40%;
 }
-.secondArrow{
-    height: 52px;
-    width: 54px;
-    border-radius: 100px;
-    background: url("../../assets/icons/Arrowright.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    margin-top: 210px;
-    border: 2px solid #f1cdb3;
+#leftArrow{
+    position: absolute;
+    left: 0.7rem;
 }
-.slider button:hover{
-    background-color: #FDDCC4;
+#rightArrow{
+    position: absolute;
+    right: 0.7rem
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Get-to-know-the-rest-button{
     width: 261px;
     height: 52px;
