@@ -329,8 +329,6 @@ h1{
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #545454;
-   
-
 }
 .donation-right-wrap p {
     font-weight: 400;
@@ -345,4 +343,64 @@ h1{
     font-size: 12px;
     line-height: 18px;
     color: #B2B2B2;
+}
+/* footer */
+
+.footer{
+    background-image: url("../../assets/images/footer-gradient-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+#footerPuppyIMG{
+    height:310px ;
+}
+.footer-column{
+    width: 280px;
+}
+#mapcontent{
+    width: 300px;
+}
+#marker-width{
+    width: 235px;
+}
+#thirdFooterCont{
+    padding-top: 25px;
+}
+.footer-content{
+    width: 270px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-column h3{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#footer-content{
+    margin-bottom: 20px;
+}
+.footer-content a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    
+}
+.footer-wrapp{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: space-around;
+    align-items: center;
 }
