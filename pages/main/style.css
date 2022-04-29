@@ -329,6 +329,7 @@ h1{
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #545454;
+   
 
 }
 .donation-right-wrap p {
@@ -337,10 +338,11 @@ h1{
     line-height: 110%;
     letter-spacing: 0.06em;
     color: #545454;
+    padding: 20px 0;
 }
 #donation-text{
     font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-color: #B2B2B2;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
 }
