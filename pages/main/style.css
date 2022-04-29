@@ -85,15 +85,17 @@ h1{
     border: 3px;
     font-family: 'Arial';
     font-style: normal;
-
   
 }
-
-.navbar a:hover{
+#about-the-shelter-element{
+    border-bottom: solid 3px #F1CDB3;
+    color: #FAFAFA;
+    
+}
+.navbar-li:hover{
     border-bottom: solid 3px #F1CDB3;
     color: #FAFAFA;
 }
-
 .not-only-container{
     width: 95%;
     display: flex;
