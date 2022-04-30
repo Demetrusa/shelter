@@ -232,9 +232,17 @@ h1{
     width: 270px;
     height: 435px;
     background: #F6F6F6;
+    cursor: pointer;
 }
+.card:hover{
+    background: #FFFFFF;
+}
+
 .card img {
     width: 100%;
+}
+.card img:hover{
+    background-color: #FFFFFF;
 }
 .card p {
     color: #545454;

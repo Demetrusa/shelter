@@ -2,6 +2,9 @@ function btnOurFriends(e){
     window.location.hash="ourFriends";
     console.log("rame")
 }
+function buttonToOurFreinds(e){
+    window.location.hash="https://demetrusa.github.io/shelter/pages/pets/index.html"
+}
 const cardWrap = document.querySelector(".card-wrap");
 const card = document.getElementsByClassName("card");
 
