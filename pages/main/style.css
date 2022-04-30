@@ -213,9 +213,12 @@ h1{
     margin: 0 auto;
     text-align: center;
     padding: 80px 0 60px 0;
+  
+    color: #545454;
+}
+.our-friends-heading h3,span{
     font-family: 'Georgia';
     font-style: normal;
-    color: #545454;
 }
 .slider{
     width: 95%;
@@ -236,8 +239,9 @@ h1{
 }
 .card:hover{
     background: #FFFFFF;
-}
+    
 
+}
 .card img {
     width: 100%;
 }
@@ -297,49 +301,27 @@ h1{
     position: absolute;
     right: 0.8rem
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Get-to-know-the-rest-button{
+.Get-to-know-the-rest{
     width: 261px;
     height: 52px;
     gap: 10px;
     background: #F1CDB3;
     border: none;
     border-radius: 100px;
-    cursor: pointer;  
-    margin-bottom: 100px;
+    cursor: pointer;
     font-family: 'Georgia';
     font-style: normal;
-  
-   
-}
-.Get-to-know-the-rest-button:hover{
-    background-color: #FDDCC4;
-}
-.Get-to-know-the-rest{
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 60px;
+    margin-bottom: 100px;
+}
 
+.Get-to-know-the-rest:hover{
+    background-color: #FDDCC4;
 }
 .help{
     width: 94%;
@@ -449,7 +431,9 @@ h1{
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
+    font-family: 'Georgia';
+font-style: normal;
 }
 /* footer */
 
@@ -466,7 +450,8 @@ h1{
     
 }
 #footerPuppyIMG{
-    height:310px ;
+ 
+    margin-top: 40px;
 }
 .footer-column{
     width: 280px;
@@ -481,37 +466,46 @@ h1{
 }
 #thirdFooterCont{
     padding-top: 25px;
-    width: 270px;
+    width: 280px;
     display: flex;
     align-items: center;
+    font-family: 'Georgia';
+font-style: normal;
     
 }
+
 #thirdFooterCont a {
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
     color: #F1CDB3;
     letter-spacing: 0.06em;
+    font-family: 'Georgia';
+    font-style: normal;
 }
 #marker-park {
     margin-left: 26px;
 }
-
+#email,
+#tel{
+    margin-left: 20px;
+    font-family: 'Georgia';
+    font-style: normal; 
+    
+}
 .footer-content{
-    width: 270px;;
+    width: 280px;;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
-.footer-column h3{
+.footer-column h3, span{
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     margin-bottom: 40px;
-    font-family: 'Georgia';
-    font-style: normal;
     font-family: 'Georgia';
     font-style: normal;
 
