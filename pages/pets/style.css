@@ -157,6 +157,9 @@ main{
     margin-top: 60px;
     padding-bottom: 100px;
 }
+.slider-buttons button:hover{
+    background-color: #f1cdb3;
+}
 .left-slider-btn-1,
 .left-slider-btn-2{
     border: 2px solid #CDCDCD;
