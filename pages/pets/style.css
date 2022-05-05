@@ -75,6 +75,9 @@ h1{
     font-style: normal;
   
 }
+.navbar a:hover{
+    border-bottom: solid 3px #F1CDB3;
+}
 #our-pets-style{
     border-bottom: solid 3px #F1CDB3;
 }
@@ -196,22 +199,6 @@ main{
     letter-spacing: 0.06em;
     line-height: 115%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 .footer{
