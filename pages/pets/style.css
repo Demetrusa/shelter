@@ -1,13 +1,183 @@
-.main-container{
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: 'Georgia';
+	src: url('../../assets/fonts/georgia.ttf');
+	src: local('Georgia Regular'), local('Georgia-Regular'),
+		url('../../assets/fonts/georgia.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Arial';
+	src: url('../../assets/fonts/arial.ttf');
+	src: local('Arial Regular'), local('Arial-Regular'),
+		url('../../assets/fonts/arial.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+#header{
+    max-width: 1280px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    height:120px ;
+    background-color: #FFFFFF;
+}
+.cozy-house-wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+}
+h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #545454;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+.cozy-house-wrap h4{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;
+    margin-left: 3px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.navbar a {
+    font-size: 15px;
+    line-height: 160%;
+    text-decoration: none;
+    font-weight: 400;
+    color: #292929;
+    margin-left: 36px;
+    border: 3px;
+    font-family: 'Arial';
+    font-style: normal;
+  
+}
+#our-pets-style{
+    border-bottom: solid 3px #F1CDB3;
+}
+/* main */
+main{
     max-width: 1280px;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid green;
+    height: 100vh;
 }
-.bg-wrap{
-    background-image: url("../../assets/images/start-screen-gradient-background.jpg");
-    width: 100%;
+/* footer */
+.footer{
+    background-image: url("../../assets/images/footer-gradient-background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: 0 0;
-    height: 908px;
+    background-size: cover;
+    
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+#footerPuppyIMG{
+ 
+    margin-top: 40px;
+}
+.footer-column{
+    width: 280px;
+}
+#mapcontent{
+    width: 300px;
+}
+#marker-width{
+    margin-left: 25px;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+#thirdFooterCont{
+    padding-top: 25px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+font-style: normal;
+    
+}
+
+#thirdFooterCont a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+#marker-park {
+    margin-left: 26px;
+}
+#email,
+#tel{
+    margin-left: 20px;
+    font-family: 'Georgia';
+    font-style: normal; 
+    
+}
+.footer-content{
+    width: 280px;;
+    display: flex;
+    
+    align-items: center;
+}
+.footer-column h3, span{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    font-family: 'Georgia';
+    font-style: normal;
+
+}
+
+#footer-content{
+    margin-bottom: 20px;
+}
+.footer-content a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    
+}
+.footer-wrapp{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: space-around;
+    align-items: center;
+}
+#firstWrap{
+    margin-bottom: 13px;
 }

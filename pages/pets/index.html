@@ -5,19 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pets</title>
+    <link rel="stylesheet" href="../main/reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1
-      style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 55px;
-        color: brown;
-      "
-    >
-      Here Will Be Pets Section In week 2
-    </h1>
+    <header id="header">
+      <div class="cozy-house-wrap">
+        <a href="../main/index.html">
+          <h1>Cozy House</h1>
+          <h4>Shelter for pets in Boston</h4>
+        </a>
+      </div>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>
+              <a href="#about" id="about-the-shelter-element"
+                >About the shelter</a
+              >
+            </li>
+            <li>
+              <a
+                href="../pets/index.html"
+                target="_blank"
+                class="navbar-li"
+                id="our-pets-style"
+                >Our pets</a
+              >
+            </li>
+            <li><a href="#help" class="navbar-li">Help the shelter</a></li>
+            <li><a href="#footer" class="navbar-li">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <div id="slider"></div>
+    </main>
+    <!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="footer-wrapp">
+          <div class="footer-column">
+            <h3>For questions <span>and suggestions</span></h3>
+            <div class="footer-content" id="footer-content">
+              <a href="mailto:email@shelter.com" id="footer-email"
+                ><img src="../../assets/icons/icon-email.svg" alt="email-icon"
+              /></a>
+              <a href="mailto:email@shelter.com" id="email"
+                >email@shelter.com</a
+              >
+            </div>
+            <div class="footer-content" id="firstWrap">
+              <a href="tel:+136745677554">
+                <img src="../../assets/icons/icon-phone.svg" alt="phone-icon" />
+              </a>
+              <a href="tel:+136745677554" id="tel">tel:+13 674 567 75 54</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>We are waiting for your visit</h3>
+            <div class="footer-content" id="mapcontent">
+              <a href="https://goo.gl/maps/AtxrqyYqTpVt6uZz5" target="_blank">
+                <img
+                  src="../../assets/icons/icon-marker.svg"
+                  alt="map-marker"
+                />
+              </a>
+              <a
+                href="https://goo.gl/maps/AtxrqyYqTpVt6uZz5"
+                target="_blank"
+                id="marker-width"
+              >
+                1 Central Street, Boston (entrance from the store)</a
+              >
+            </div>
+            <div id="thirdFooterCont">
+              <a href="https://goo.gl/maps/AtxrqyYqTpVt6uZz5" target="_blank">
+                <img src="../../assets/icons/icon-marker.svg" alt="marker"
+              /></a>
+              <a
+                href="https://goo.gl/maps/AtxrqyYqTpVt6uZz5"
+                target="_blank"
+                id="marker-park"
+              >
+                18 South Park, London
+              </a>
+            </div>
+          </div>
+          <img
+            src="../../assets/images/footer-puppy.png"
+            alt="footer-puppy"
+            id="footerPuppyIMG"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -238,11 +238,10 @@ h1{
     background: #F6F6F6;
     cursor: pointer;
 }
-.card:hover{
-    background: #FFFFFF;
-    
-
-}
+.card:hover .learnMoreBtn {
+    background-color: #FDDCC4;
+  
+  }
 .card img {
     width: 100%;
 }
