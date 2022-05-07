@@ -162,6 +162,7 @@ main{
 }
 .slider-buttons button:hover{
     background-color: #f1cdb3;
+    cursor: pointer;
 }
 .left-slider-btn-1,
 .left-slider-btn-2{
