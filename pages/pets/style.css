@@ -160,8 +160,15 @@ main{
     margin-top: 60px;
     padding-bottom: 100px;
 }
-.slider-buttons button:hover{
+.right-slider-btn-1:hover{
     background-color: #f1cdb3;
+    cursor: pointer;
+}
+.right-slider-btn-2:hover{
+    background-color: #f1cdb3;
+    cursor: pointer;
+}
+.slider-pagination-btn:hover{
     cursor: pointer;
 }
 .left-slider-btn-1,
