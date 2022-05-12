@@ -168,9 +168,6 @@ main{
     background-color: #f1cdb3;
     cursor: pointer;
 }
-.slider-pagination-btn:hover{
-    cursor: pointer;
-}
 .left-slider-btn-1,
 .left-slider-btn-2{
     border: 2px solid #CDCDCD;
