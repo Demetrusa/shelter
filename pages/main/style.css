@@ -46,9 +46,6 @@ header{
 
 .burger-menu{
     display: none;
-    width: 100%;
-    height: 823px;
-    background-color: #292929;
 }
 
 .menu {
@@ -68,21 +65,26 @@ header{
     color: #FAFAFA;
     line-height: 160%;
 }
+.menu{
+    /* display: none; */
+    margin-right: 150px;
+}
 .menu li {
     padding-top: 20px;
     padding-bottom: 20px;
+    display: none;
 }
 .burger-line{
     width: 30px;
-    height: 5px;
- 
+    height: 2px;
+
     background-color: #F1CDB3;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .menu-icon{
- position: absolute;
- right: 20px;
+    margin-left: 30px;
+
 }
 
 h1{
@@ -634,13 +636,13 @@ h1{
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) and (min-width: 200px){
     .navbar{
         display: none;
     }
-    /* .burger-menu{
+    .burger-menu{
         display: block;
-    } */
+    }
   .not-only-text-content h3{
       font-size: 25px;
   }
@@ -652,6 +654,10 @@ h1{
   }
   h1{
       font-size: 32px;
+      line-height: 110%;
+      width: 190px;
+      margin-top: 35px;
+      
   }
   .cozy-house-wrap h4 {
       font-size: 13px;
@@ -762,4 +768,5 @@ h1{
  #footerPuppyIMG {
      width: 260px;
  }
+
 }
