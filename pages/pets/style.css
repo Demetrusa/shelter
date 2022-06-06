@@ -432,6 +432,41 @@ font-style: normal;
     background-color: #d4a582;
 }
 
+.menuspan{
+    display: none;
+}
+
+.menu-bars{
+    font-size: 32px;
+    color: #F1CDB3;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.menu-bars:hover {
+    transform: rotate(90deg);
+}
+
+.menu-container{
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    width: 65%;
+    background-color: #292929;
+    text-align: center;
+    
+}
+
+.menu-container li {
+    padding-bottom: 50px;
+    width: 100%;
+}
+.menu-container a {
+    color: white;
+    
+}
+
+
 
 @media only screen and (max-width: 1280px){
     .not-only-container{
@@ -466,8 +501,12 @@ font-style: normal;
 .navbar{
     display: none;
 }
-.burger-menu{
+.menuspan{
     display: block;
+    position: absolute;
+    right: 53px;
+    top: 51px;
+    z-index: 6;
 }
 .not-only-text-content h3{
   font-size: 25px;

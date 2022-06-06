@@ -115,3 +115,10 @@ let btnContainer=document.querySelectorAll('.learnMoreBtn').forEach((item,index)
 cancelIcon.addEventListener('click',()=>{
     petsInfo.classList.remove('active');
 })
+
+const clickMenu = document.getElementsByClassName("menu-container");
+const clickMe = document.getElementById("menu-bars")
+
+clickMe.onclick = function() {
+    clickMenu[0].style.display = "block";
+}
