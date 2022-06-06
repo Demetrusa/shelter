@@ -12,6 +12,10 @@
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/26d4a64054.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -44,25 +48,20 @@
               </ul>
             </nav>
           </div>
-          <div class="burger-menu">
-            <div class="menu-icon">
-              <div class="burger-line"></div>
-              <div class="burger-line"></div>
-              <div class="burger-line"></div>
-            </div>
-            <div class="menu">
-              <ul>
-                <li>
-                  <a href="#about" id="burger-nav-underline"
-                    >About the shelter</a
-                  >
-                </li>
-                <li><a href="#../pets/index.html">Our pets</a></li>
-                <li><a href="#help">Help the shelter</a></li>
-                <li><a href="#footer">Contacts</a></li>
-              </ul>
-            </div>
-          </div>
+          <span class="menuspan"
+            ><i class="fas fa-bars menu-bars" id="menu-bars"></i
+          ></span>
+
+          <ul class="menu-container">
+            <li style="--i: 1">
+              <a href="#about" id="navly">About the shelter</a>
+            </li>
+            <li style="--i: 2"><a href="../pets/index.html">Our pets</a></li>
+            <li style="--i: 3">
+              <a href="#help">Help the shelter</a>
+            </li>
+            <li style="--i: 4"><a href="#footer">Contacts</a></li>
+          </ul>
         </header>
         <!-- not only content -->
         <div class="not-only-container">
@@ -334,8 +333,15 @@
             />
           </div>
         </div>
+        <div class="petsofInfo">
+          <div class="petsofInfocontainers">
+            <div class="petsofInfo-container"></div>
+            <span class="cancelIcon"><i class="fas fa-times"></i></span>
+          </div>
+        </div>
       </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
+    <script src="./jsonscript.js"></script>
   </body>
 </html>

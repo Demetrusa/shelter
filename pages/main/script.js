@@ -37,3 +37,11 @@ const menuIconBtn = document.getElementsByClassName("menu-icon")
 menuIconBtn.onclick = function () {
     menuIconBtn.style.transform ="rotate"
 }
+
+
+const clickMenu = document.getElementsByClassName("menu-container");
+const clickMe = document.getElementById("menu-bars")
+
+clickMe.onclick = function() {
+    clickMenu[0].style.display = "block";
+}

@@ -85,24 +85,24 @@ const arr1=[
 
 const petsInfo=document.querySelector('.petsofInfo');
 const petsInfoContainer=document.querySelector('.petsofInfo-container');
-let counter=0;
+let count=0;
 
 let btnContainer=document.querySelectorAll('.learnMoreBtn').forEach((item,index)=>{
     item.addEventListener('click',()=>{
-        counter=index;
+        count=index;
         petsInfoContainer.innerHTML=`
         <div class="petsinfo-image">
-        <img src=${arr1[counter].img} alt=${arr1[counter].name}>
+        <img src=${arr1[count].img} alt=${arr1[count].name}>
     </div>
     <div class="pets-info">
-        <h3>${arr1[counter].name}</h3>
-        <h4>${arr1[counter].type} - ${arr1[counter].breed}</h4>
-        <p>${arr1[counter].description}</p>
+        <h3>${arr1[count].name}</h3>
+        <h4>${arr1[count].type} - ${arr1[count].breed}</h4>
+        <p>${arr1[count].description}</p>
          <div class="petData">
-         <p><p class="boldinfo">Age:</p> ${arr1[counter].age}</p>
-         <p><p class="boldinfo">introduction:</p> ${arr1[counter].inoculations}</p>
-         <p><p class="boldinfo">diseases:</p> ${arr1[counter].diseases}</p>
-         <p><p class="boldinfo">parasites:</p> ${arr1[counter].parasites}</p>
+         <p><p class="boldinfo">Age:</p> ${arr1[count].age}</p>
+         <p><p class="boldinfo">introduction:</p> ${arr1[count].inoculations}</p>
+         <p><p class="boldinfo">diseases:</p> ${arr1[count].diseases}</p>
+         <p><p class="boldinfo">parasites:</p> ${arr1[count].parasites}</p>
          </div>
     </div>
         `;
