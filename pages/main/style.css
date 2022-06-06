@@ -67,7 +67,7 @@ header{
 }
 .menu{
     /* display: none; */
-    margin-right: 150px;
+    margin-right: 100px;
 }
 .menu li {
     padding-top: 20px;
@@ -734,8 +734,8 @@ h1{
      padding: 20px;
  }
  .donation-right-wrap img {
-     width: 281px;
-     margin-right: 20px;
+     width: 250px;
+    margin-left: 10px;
  }
  .donation-left-wrap img {
      max-width: 280px;

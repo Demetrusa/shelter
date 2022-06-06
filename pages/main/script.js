@@ -30,3 +30,10 @@ rightArrow.addEventListener('click',()=>{
   }
   cardWrap.style.transform= 'translate('+(counter) *  -16.5 +'%)';
 })
+
+
+const menuIconBtn = document.getElementsByClassName("menu-icon")
+
+menuIconBtn.onclick = function () {
+    menuIconBtn.style.transform ="rotate"
+}
